@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77833BDF15BA743500E886BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77833BDE15BA743500E886BF /* UIKit.framework */; };
+		77833BE115BA743500E886BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77833BE015BA743500E886BF /* Foundation.framework */; };
+		77833BE315BA743500E886BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77833BE215BA743500E886BF /* CoreGraphics.framework */; };
+		77833BE915BA743500E886BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77833BE715BA743500E886BF /* InfoPlist.strings */; };
+		77833BEB15BA743500E886BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77833BEA15BA743500E886BF /* main.m */; };
+		77833BEF15BA743500E886BF /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77833BEE15BA743500E886BF /* RCAppDelegate.m */; };
+		77833BF215BA743500E886BF /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77833BF115BA743500E886BF /* RCViewController.m */; };
+		77833BFD15BA748900E886BF /* RCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77833BFB15BA748900E886BF /* RCLabel.m */; };
+		77833C0015BA853A00E886BF /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 77833BFE15BA853A00E886BF /* RegexKitLite.m */; };
+		77833C0515BA868200E886BF /* chrome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77833C0215BA868200E886BF /* chrome.jpg */; };
+		77833C0615BA868200E886BF /* ie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77833C0315BA868200E886BF /* ie.jpg */; };
+		77833C0815BA86A700E886BF /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 77833C0715BA86A700E886BF /* safari.png */; };
+		77833C0D15BA86CA00E886BF /* RCViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77833C0915BA86CA00E886BF /* RCViewCell.m */; };
+		77833C1615BA885C00E886BF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77833C1515BA885C00E886BF /* CoreText.framework */; };
+		77833C1815BA88C600E886BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77833C1715BA88C600E886BF /* CoreFoundation.framework */; };
+		77833C1A15BA894400E886BF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77833C1915BA894400E886BF /* libicucore.dylib */; };
+		77833C1C15BA8F1200E886BF /* firefox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77833C1B15BA8F1200E886BF /* firefox.jpg */; };
+		77833C1E15BA906100E886BF /* wine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77833C1D15BA906100E886BF /* wine.jpeg */; };
+		77833C2015BA934D00E886BF /* tokyo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77833C1F15BA934D00E886BF /* tokyo.gif */; };
+		77833C2415BA94DE00E886BF /* ThumbNail.ashx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77833C2315BA94DE00E886BF /* ThumbNail.ashx.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77833BDA15BA743500E886BF /* RCLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77833BDE15BA743500E886BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77833BE015BA743500E886BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77833BE215BA743500E886BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77833BE615BA743500E886BF /* RCLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCLabel-Info.plist"; sourceTree = "<group>"; };
+		77833BE815BA743500E886BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77833BEA15BA743500E886BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77833BEC15BA743500E886BF /* RCLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCLabel-Prefix.pch"; sourceTree = "<group>"; };
+		77833BED15BA743500E886BF /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		77833BEE15BA743500E886BF /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
+		77833BF015BA743500E886BF /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
+		77833BF115BA743500E886BF /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
+		77833BFB15BA748900E886BF /* RCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLabel.m; sourceTree = "<group>"; };
+		77833BFC15BA748900E886BF /* RCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLabel.h; sourceTree = "<group>"; };
+		77833BFE15BA853A00E886BF /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		77833BFF15BA853A00E886BF /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		77833C0215BA868200E886BF /* chrome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chrome.jpg; sourceTree = "<group>"; };
+		77833C0315BA868200E886BF /* ie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ie.jpg; sourceTree = "<group>"; };
+		77833C0715BA86A700E886BF /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
+		77833C0915BA86CA00E886BF /* RCViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCViewCell.m; sourceTree = "<group>"; };
+		77833C0B15BA86CA00E886BF /* RCViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCViewCell.h; sourceTree = "<group>"; };
+		77833C1515BA885C00E886BF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		77833C1715BA88C600E886BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		77833C1915BA894400E886BF /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		77833C1B15BA8F1200E886BF /* firefox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firefox.jpg; sourceTree = "<group>"; };
+		77833C1D15BA906100E886BF /* wine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wine.jpeg; sourceTree = "<group>"; };
+		77833C1F15BA934D00E886BF /* tokyo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tokyo.gif; sourceTree = "<group>"; };
+		77833C2315BA94DE00E886BF /* ThumbNail.ashx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThumbNail.ashx.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77833BD715BA743500E886BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77833C1A15BA894400E886BF /* libicucore.dylib in Frameworks */,
+				77833C1815BA88C600E886BF /* CoreFoundation.framework in Frameworks */,
+				77833C1615BA885C00E886BF /* CoreText.framework in Frameworks */,
+				77833BDF15BA743500E886BF /* UIKit.framework in Frameworks */,
+				77833BE115BA743500E886BF /* Foundation.framework in Frameworks */,
+				77833BE315BA743500E886BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77833BCF15BA743300E886BF = {
+			isa = PBXGroup;
+			children = (
+				77833C1915BA894400E886BF /* libicucore.dylib */,
+				77833C1715BA88C600E886BF /* CoreFoundation.framework */,
+				77833C1515BA885C00E886BF /* CoreText.framework */,
+				77833BE415BA743500E886BF /* RCLabel */,
+				77833BDD15BA743500E886BF /* Frameworks */,
+				77833BDB15BA743500E886BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77833BDB15BA743500E886BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77833BDA15BA743500E886BF /* RCLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77833BDD15BA743500E886BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77833BDE15BA743500E886BF /* UIKit.framework */,
+				77833BE015BA743500E886BF /* Foundation.framework */,
+				77833BE215BA743500E886BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77833BE415BA743500E886BF /* RCLabel */ = {
+			isa = PBXGroup;
+			children = (
+				77833C2315BA94DE00E886BF /* ThumbNail.ashx.jpeg */,
+				77833C1F15BA934D00E886BF /* tokyo.gif */,
+				77833C1D15BA906100E886BF /* wine.jpeg */,
+				77833C1B15BA8F1200E886BF /* firefox.jpg */,
+				77833C0915BA86CA00E886BF /* RCViewCell.m */,
+				77833C0B15BA86CA00E886BF /* RCViewCell.h */,
+				77833C0715BA86A700E886BF /* safari.png */,
+				77833C0215BA868200E886BF /* chrome.jpg */,
+				77833C0315BA868200E886BF /* ie.jpg */,
+				77833BFE15BA853A00E886BF /* RegexKitLite.m */,
+				77833BFF15BA853A00E886BF /* RegexKitLite.h */,
+				77833BFB15BA748900E886BF /* RCLabel.m */,
+				77833BFC15BA748900E886BF /* RCLabel.h */,
+				77833BED15BA743500E886BF /* RCAppDelegate.h */,
+				77833BEE15BA743500E886BF /* RCAppDelegate.m */,
+				77833BF015BA743500E886BF /* RCViewController.h */,
+				77833BF115BA743500E886BF /* RCViewController.m */,
+				77833BE515BA743500E886BF /* Supporting Files */,
+			);
+			path = RCLabel;
+			sourceTree = "<group>";
+		};
+		77833BE515BA743500E886BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77833BE615BA743500E886BF /* RCLabel-Info.plist */,
+				77833BE715BA743500E886BF /* InfoPlist.strings */,
+				77833BEA15BA743500E886BF /* main.m */,
+				77833BEC15BA743500E886BF /* RCLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77833BD915BA743500E886BF /* RCLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77833BF815BA743500E886BF /* Build configuration list for PBXNativeTarget "RCLabel" */;
+			buildPhases = (
+				77833BD615BA743500E886BF /* Sources */,
+				77833BD715BA743500E886BF /* Frameworks */,
+				77833BD815BA743500E886BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCLabel;
+			productName = RCLabel;
+			productReference = 77833BDA15BA743500E886BF /* RCLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77833BD115BA743300E886BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 77833BD415BA743300E886BF /* Build configuration list for PBXProject "RCLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77833BCF15BA743300E886BF;
+			productRefGroup = 77833BDB15BA743500E886BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77833BD915BA743500E886BF /* RCLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77833BD815BA743500E886BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77833BE915BA743500E886BF /* InfoPlist.strings in Resources */,
+				77833C0515BA868200E886BF /* chrome.jpg in Resources */,
+				77833C0615BA868200E886BF /* ie.jpg in Resources */,
+				77833C0815BA86A700E886BF /* safari.png in Resources */,
+				77833C1C15BA8F1200E886BF /* firefox.jpg in Resources */,
+				77833C1E15BA906100E886BF /* wine.jpeg in Resources */,
+				77833C2015BA934D00E886BF /* tokyo.gif in Resources */,
+				77833C2415BA94DE00E886BF /* ThumbNail.ashx.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77833BD615BA743500E886BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77833BEB15BA743500E886BF /* main.m in Sources */,
+				77833BEF15BA743500E886BF /* RCAppDelegate.m in Sources */,
+				77833BF215BA743500E886BF /* RCViewController.m in Sources */,
+				77833BFD15BA748900E886BF /* RCLabel.m in Sources */,
+				77833C0015BA853A00E886BF /* RegexKitLite.m in Sources */,
+				77833C0D15BA86CA00E886BF /* RCViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77833BE715BA743500E886BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77833BE815BA743500E886BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77833BF615BA743500E886BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77833BF715BA743500E886BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77833BF915BA743500E886BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCLabel/RCLabel-Prefix.pch";
+				INFOPLIST_FILE = "RCLabel/RCLabel-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77833BFA15BA743500E886BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCLabel/RCLabel-Prefix.pch";
+				INFOPLIST_FILE = "RCLabel/RCLabel-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77833BD415BA743300E886BF /* Build configuration list for PBXProject "RCLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77833BF615BA743500E886BF /* Debug */,
+				77833BF715BA743500E886BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77833BF815BA743500E886BF /* Build configuration list for PBXNativeTarget "RCLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77833BF915BA743500E886BF /* Debug */,
+				77833BFA15BA743500E886BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77833BD115BA743300E886BF /* Project object */;
+}
