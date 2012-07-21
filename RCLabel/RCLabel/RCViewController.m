@@ -56,9 +56,7 @@
 		[row2 setObject:@"<font size=20><u color=blue>underlined</u> <uu color=red>text</uu></font>" forKey:@"text"];
 		[self.dataArray addObject:row2];
         
-		NSMutableDictionary *row3 = [NSMutableDictionary dictionary];
-		[row3 setObject:@"clickable link - <a href='http://store.apple.com'>link to apple store</a> <a href='http://www.google.com'>link to google</a> <a href='http://www.yahoo.com'>link to yahoo</a> <a href='https://github.com/cyndibaby905'>link to Author of RichContentLabel in GitHub</a> <a href='http://www.wiki.com'>link to wiki.com website</a>" forKey:@"text"];
-		[self.dataArray addObject:row3];
+	
         
         NSMutableDictionary *row4 = [NSMutableDictionary dictionary];
 		[row4 setObject:@"<font size=20 color='#CCFF00'>Text with</font> <font size=16 color=purple>different colours</font> <font size=32 color='#dd1100'>and sizes</font>" forKey:@"text"];
