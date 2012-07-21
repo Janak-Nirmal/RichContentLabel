@@ -2,7 +2,8 @@ Rich Content Label
 =============
 
 It's a small browser render engine for browser, using Core-Text without leverage the UIWebView. 
- 
+[Screenshot](https://github.com/cyndibaby905/RichContentLabel/blob/master/RichContentLabel.png)
+
 Features
 -------
 
