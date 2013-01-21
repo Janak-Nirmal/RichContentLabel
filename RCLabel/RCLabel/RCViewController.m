@@ -39,6 +39,12 @@
 		
 		self.dataArray = [NSMutableArray array];
         
+        NSMutableDictionary *row19 = [NSMutableDictionary dictionary];
+		[row19 setObject:@"<font size = 20>Different fonts:</font><font size = 20 face='HelveticaNeue-UltraLightItalic'>HelveticaNeue-UltraLightItalic</font>,<font size = 20 face='Chalkduster'>Chalkduster</font>,<font size = 20 face='Copperplate'>Copperplate</font>,<font size = 20 face='AppleColorEmoji'>AppleColorEmoji</font>" forKey:@"text"];
+		[self.dataArray addObject:row19];
+        
+        
+        
         NSMutableDictionary *row21 = [NSMutableDictionary dictionary];
 		[row21 setObject:@"<font size = 20>Which browser is the best?</font>\n<a href='http://www.firefox.com'><img src='firefox.jpg'>Firefox</a><a href='http://windows.microsoft.com/en-US/internet-explorer/products/ie/home'><img src='ie.jpg'>IE</a><a href='http://www.chrome.com'><img src='chrome.jpg'>Chrome</a><a href='http://www.apple.com/safari'><img src='safari.png'>Safari</a>" forKey:@"text"];
 		[self.dataArray addObject:row21]; 
