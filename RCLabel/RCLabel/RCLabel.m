@@ -1502,7 +1502,7 @@ CGFloat MyGetWidthCallback( void* refCon ){
                 if (!isSizeTooSmall) {
                     
                     NSMutableString *tempString = [NSMutableString stringWithString:plainData];
-                    [tempString insertString:@"`" atIndex:position];
+                    [tempString insertString:[NSString stringWithFormat:@"%c", 8] atIndex:position];
                         
                                         
                     plainData = [NSString stringWithString:tempString];
